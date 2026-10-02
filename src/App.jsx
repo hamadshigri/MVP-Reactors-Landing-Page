@@ -15,19 +15,20 @@ function App() {
 
   return (
     <>
-      <div className="bg-[url(/hero-bg.png)] bg-black bg-fixed flex items-center flex-col bg-cover bg-center h-full w-full pt-10">
+      <div className="bg-[url(/hero-bg.png)] bg-black bg-fixed flex items-center flex-col bg-cover bg-center px-[24px] m-auto pt-10">
         <Navbar />
         <Herosection />
-        <img src="/text-content.png" alt="Text Content" className="w-4/5 object-contain px-4 -mt-[70px]" />
+        <img src="/text-content.png" alt="Text Content" className="w-4/5 hidden sm:block object-contain px-4 -mt-[70px]" />
+        <img src="/text-content-mobile.png" alt="Text Content" className="sm:hidden object-contain -mt-[50px]" />
         <Featuresection />
         <Offersection />
         <Testimonialsection />
         <Faqsection />
         <Pricingsection />
-        <div className="w-full flex justify-center items-center py-20">
+        <div className="sm:max-w-[1360px] w-full flex justify-center items-center py-10 sm:py-20">
           <Contactform />
         </div>
-        <Footer />
+        <Footer />  
       </div>
     </>
   )
