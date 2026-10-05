@@ -17,7 +17,7 @@
 }
 
 @theme {
-  --font-display: 'PP Telegraf', sans-serif;
+  --font-display: 'PP Telegraf';
   --color-testimonial-primary: #857CFF; 
   --color-testimonial-secondary: #504A9900;
   --breakpoint-3xl: 1920px;
