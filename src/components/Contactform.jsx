@@ -9,7 +9,7 @@ export default function Contactform() {
         <p className="text-[22px]  font-display hidden sm:block"><u><a href="mailto:howdy@mvpreactors.com">howdy@mvpreactors.com</a></u> OR drop a message.</p>
         <form action="" className="flex flex-col gap-4">
           <input type="email" placeholder="Email" className="bg-white/10 p-[20px] rounded-xl placeholder:text-[#CBD5E1] text-xl focus:outline-none" />
-          <textarea name="message" rows="4" id="message" placeholder="Message" className="bg-white/10 p-[20mpx] rounded-xl placeholder:text-[#CBD5E1] text-xl focus:outline-none"></textarea>
+          <textarea name="message" rows="4" id="message" placeholder="Message" className="bg-white/10 p-[20px] rounded-xl placeholder:text-[#CBD5E1] text-xl focus:outline-none"></textarea>
           <div className="flex justify-center sm:justify-end">
             <button className="flex cursor-pointer items-center gap-1 px-6 py-4 shadow-[inset_0px_3px_4px_0px_#A8A2FF40,inset_0px_3px_4px_0px_#A8A2FF66,inset_0px_-3px_4px_0px_#A8A2FF40,inset_0px_-3px_4px_0px_#857CFF66] rounded-full bg-white/5 border border-purple-400/30 hover:bg-purple-900/50 backdrop-blur-md text-xl w-full sm:w-auto font-display font-medium text-white justify-center">
               <p className="text-base font-medium">
