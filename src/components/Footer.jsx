@@ -5,8 +5,8 @@ export default function Footer() {
     return (
         <>
             <div className="w-full flex justify-center border-t border-[#FFFFFF1A] text-white relative">
-                <div className="flex flex-col-reverse sm:flex-row justify-between items-center w-[80%] py-8">
-                    <p className="text-lg mt-5 sm:mt-0 text-center sm:text-left text-white">
+                <div className="flex flex-col-reverse sm:flex-col xl:flex-row justify-between items-center w-[80%] py-8">
+                    <p className="text-base sm:text-lg font-display mt-5 sm:mt-0 text-center sm:text-left text-white">
                         2020 The Good Company. All Rights Reserved
                     </p>
                     <div className="flex justify-between items-center space-x-4">
@@ -15,7 +15,7 @@ export default function Footer() {
                             <img src={facebook} alt="Facebook-Icon" className="w-[27px] h-[27px]" />
                             <span className="text-[#FFFFFF66] text-2xl mb-1">&#x007C;</span>
                         </div>
-                        <ul className="flex flex-col sm:flex-row text-center sm:text-left space-y-2 sm:space-y-0 sm:space-x-4 text-white text-lg">
+                        <ul className="flex flex-col font-display sm:flex-row text-center sm:text-left space-y-2 sm:space-y-0 sm:space-x-4 text-white text-lg">
                             <li>About</li>
                             <li>Terms of service</li>
                             <li>Privacy Policy</li>

@@ -1,25 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/telegraf');
 @import "tailwindcss";
 
-@font-face {
-  font-family: PP Telegraf;
-  font-style: normal;
-  font-weight: 400;
-  src: url("../src/assets/fonts/PPTelegraf-Regular-BF6417cecb5d571.otf") format("otf");
-  font-display: swap;
-}
-
-@font-face {
-    font-family: PP Telegraf;
-    font-style: ultra-bold;
-    font-weight: 800;
-    src: url("../src/assets/fonts/PPTelegraf-UltraBold-8e7f0c3b1d5a4f2.otf") format("otf");
-    font-display: swap;
-}
-
 @theme {
-  --font-display: 'PP Telegraf';
+  --font-telegraf: 'Telegraf';
+  --font-display: 'Telegraf';
+  
   --color-testimonial-primary: #857CFF; 
   --color-testimonial-secondary: #504A9900;
+  --breakpoint-xs: 320px;
   --breakpoint-3xl: 1920px;
-
 }

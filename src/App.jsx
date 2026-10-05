@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[url(/hero-bg.png)] bg-black bg-fixed flex items-center flex-col bg-cover bg-center px-[24px] m-auto pt-10">
+      <div className="bg-[url(/hero-bg.png)] bg-black bg-fixed flex items-center flex-col bg-cover bg-center px-[15px] sm:px-[24px] m-auto pt-10">
         <Navbar />
         <Herosection />
         <img src="/text-content.png" alt="Text Content" className="w-4/5 hidden sm:block object-contain px-4" />
